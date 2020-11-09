@@ -17,7 +17,7 @@ audio::18:
 cdrom::19:
 dialout::20:
 tape::26:root
-video::27:root
+video::27:root,sddm
 cdrw::80:
 usb::85:
 input::97:
@@ -38,3 +38,4 @@ polkitd:x:102:
 lpadmin:x:106:
 plugdev:x:272:
 locate:x:999:
+sddm:x:998:
