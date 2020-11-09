@@ -36,3 +36,4 @@ crontab:x:249:
 messagebus:x:101:
 polkitd:x:102:
 lpadmin:x:106:
+plugdev:x:272:
