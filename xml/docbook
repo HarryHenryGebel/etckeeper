@@ -68,4 +68,6 @@
   <public publicId="-//OASIS//DTD DocBook XML CALS Table Model V4.3//EN" uri="file:///usr/share/sgml/docbook/xml-dtd-4.3/calstblx.dtd"/>
   <rewriteSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/4.3" rewritePrefix="file:///usr/share/sgml/docbook/xml-dtd-4.3"/>
   <rewriteURI uriStartString="http://www.oasis-open.org/docbook/xml/4.3" rewritePrefix="file:///usr/share/sgml/docbook/xml-dtd-4.3"/>
+  <rewriteSystem systemIdStartString="http://docbook.sourceforge.net/release/xsl-ns/current" rewritePrefix="file:///usr/share/sgml/docbook/xsl-ns-stylesheets"/>
+  <rewriteURI uriStartString="http://docbook.sourceforge.net/release/xsl-ns/current" rewritePrefix="file:///usr/share/sgml/docbook/xsl-ns-stylesheets"/>
 </catalog>
