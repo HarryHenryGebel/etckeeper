@@ -23,7 +23,8 @@
 #       documentation for details on setting a label. To obtain the UUID, use
 #       the blkid(8) command.
 
-#LABEL=boot		/boot		ext4		noauto,noatime	1 2
-#UUID=58e72203-57d1-4497-81ad-97655bd56494		/		ext4		noatime		0 1
+UUID=2ace72e8-d542-4d6d-b21d-d97968f5bb1d	/	btrfs	noatime,compress=zstd,commit=300 0 1
+UUID=fa468853-24f8-4161-9cff-680d960e61f3	/home	btrfs	noatime,compress=zstd,commit=300 0 0
+UUID=6D9B-BF1E		/boot		vfat		noatime	1 2
 #LABEL=swap		none		swap		sw		0 0
 #/dev/cdrom		/mnt/cdrom	auto		noauto,ro	0 0
