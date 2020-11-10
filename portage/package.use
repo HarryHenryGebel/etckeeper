@@ -1,4 +1,4 @@
 >=dev-lang/python-3.9.0 -bluetooth
 media-libs/mesa -vaapi
-www-client/chromium -js-type-check proprietary-codecs system-ffmpeg system-icu tcmalloc widevine
-net-libs/nodejs inspector
+www-client/chromium -js-type-check official proprietary-codecs tcmalloc widevine
+#net-libs/nodejs inspector
