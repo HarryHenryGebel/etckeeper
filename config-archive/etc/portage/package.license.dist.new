@@ -1,0 +1,5 @@
+=sys-kernel/linux-firmware-20201022-r2 linux-fw-redistributable no-source-code
+#x11-drivers/nvidia-drivers NVIDIA-r2
+www-client/google-chrome-86.0.4240.183 google-chrome
+# required by google-chrome (argument)
+>=www-client/google-chrome-86.0.4240.183 google-chrome
