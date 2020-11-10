@@ -2,3 +2,4 @@
 media-libs/mesa -vaapi
 www-client/chromium -js-type-check official proprietary-codecs tcmalloc widevine
 #net-libs/nodejs inspector
+app-portage/layman git sync-plugin-portage
