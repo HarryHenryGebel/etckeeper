@@ -1,3 +1,5 @@
 =sys-kernel/linux-firmware-20201022-r2 linux-fw-redistributable no-source-code
 #x11-drivers/nvidia-drivers NVIDIA-r2
 www-client/google-chrome google-chrome
+# required by net-im/zoom (argument)
+>=net-im/zoom-5.4.53391.1108 all-rights-reserved
