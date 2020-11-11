@@ -18,3 +18,4 @@ messagebus:x:101:101:System user; messagebus:/dev/null:/sbin/nologin
 polkitd:x:102:102:System user; polkitd:/var/lib/polkit-1:/sbin/nologin
 sddm:x:999:998:added by portage for sddm:/var/lib/sddm:/sbin/nologin
 harry:x:1000:1000::/home/harry:/bin/bash
+nullmail:x:88:88:added by portage for nullmailer:/var/spool/nullmailer:/sbin/nologin
