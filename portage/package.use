@@ -6,3 +6,5 @@ app-portage/layman git sync-plugin-portage
 dev-util/idea-ultimate -jbr8 jbr11
 dev-libs/libpcre2 pcre32
 x11-drivers/nvidia-drivers tools gtk3
+kde-frameworks/sonnet aspell -hunspell
+dev-qt/qtvirtualkeyboard -spell
