@@ -2,3 +2,4 @@ net-im/zoom ~amd64
 dev-util/idea-ultimate ~amd64
 dev-util/heroku-cli ~amd64
 dev-db/pgadmin4 ~amd64
+dev-db/tora ~amd64
