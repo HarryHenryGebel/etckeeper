@@ -8,3 +8,4 @@ dev-libs/libpcre2 pcre32
 x11-drivers/nvidia-drivers tools gtk3
 kde-frameworks/sonnet aspell -hunspell
 dev-qt/qtvirtualkeyboard -spell
+app-office/libreoffice -bluetooth
