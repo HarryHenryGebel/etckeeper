@@ -1,7 +1,7 @@
 >=dev-lang/python-3.9.0 -bluetooth
 media-libs/mesa -vaapi
-www-client/chromium -js-type-check official proprietary-codecs tcmalloc widevine
-#net-libs/nodejs inspector
+www-client/chromium -hangouts -js-type-check official proprietary-codecs -suid tcmalloc widevine
+net-libs/nodejs inspector
 app-portage/layman git sync-plugin-portage
 dev-util/idea-ultimate -jbr8 jbr11
 dev-libs/libpcre2 pcre32
