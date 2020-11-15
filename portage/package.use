@@ -13,3 +13,4 @@ dev-qt/qtsql postgres
 kde-apps/kipi-plugins -remotestorage
 dev-ruby/bundler -doc
 net-libs/nodejs -npm
+dev-vcs/git curl
