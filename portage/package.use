@@ -14,5 +14,5 @@ kde-apps/kipi-plugins -remotestorage
 dev-ruby/bundler -doc
 #net-libs/nodejs -npm
 dev-vcs/git curl
-kde-plasma/plasma-meta -networkmanager plymouth -wallpapers
+kde-plasma/plasma-meta -networkmanager -plymouth -sddm -wallpapers
 x11-libs/libdrm libkms
