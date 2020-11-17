@@ -18,3 +18,7 @@ kde-plasma/plasma-meta -networkmanager -plymouth -sddm -wallpapers
 x11-libs/libdrm libkms
 kde-apps/libkleo -fancyviewer
 dev-qt/qtwebengine jumbo-build
+dev-db/mariadb server
+dev-db/postgresql -server
+kde-plasma/plasma-workspace -telemetry
+kde-apps/akonadi -tools
