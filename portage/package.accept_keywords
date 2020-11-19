@@ -4,3 +4,4 @@ dev-util/heroku-cli ~amd64
 dev-db/pgadmin4 ~amd64
 dev-db/tora ~amd64
 sci-geosciences/opencpn ~amd64
+media-video/peek ~amd64
