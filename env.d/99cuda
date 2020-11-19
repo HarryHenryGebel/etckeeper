@@ -1,0 +1,3 @@
+PATH=/opt/cuda/bin
+ROOTPATH=/opt/cuda/bin
+LDPATH=/opt/cuda/lib64:/opt/cuda/nvvm/lib64
