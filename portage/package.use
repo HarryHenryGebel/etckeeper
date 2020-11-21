@@ -15,14 +15,14 @@ kde-apps/kipi-plugins -remotestorage
 dev-ruby/bundler -doc
 #net-libs/nodejs -npm
 dev-vcs/git curl
-kde-plasma/plasma-meta -networkmanager -plymouth -sddm -wallpapers
+kde-plasma/plasma-meta -networkmanager -plymouth sddm -wallpapers
 x11-libs/libdrm libkms
 kde-apps/libkleo -fancyviewer
 #dev-qt/qtwebengine jumbo-build
 #dev-db/mariadb server
 dev-db/postgresql -server
 kde-plasma/plasma-workspace -telemetry
-k#de-apps/akonadi -tools
+#kde-apps/akonadi -tools
 media-libs/libvpx postproc
 #media-video/obs-studio fdk nvenc
 #x11-drivers/nvidia-drivers uvm
