@@ -21,8 +21,8 @@ kde-apps/libkleo -fancyviewer
 #dev-qt/qtwebengine jumbo-build
 #dev-db/mariadb server
 dev-db/postgresql -server
-kde-plasma/plasma-workspace -telemetry
+#kde-plasma/plasma-workspace -telemetry
 #kde-apps/akonadi -tools
 media-libs/libvpx postproc
-#media-video/obs-studio fdk nvenc
-#x11-drivers/nvidia-drivers uvm
+media-video/obs-studio fdk nvenc
+x11-drivers/nvidia-drivers uvm
