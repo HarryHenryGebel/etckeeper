@@ -22,9 +22,9 @@
 # is in a different tty than where it is used, so the agent does not know where
 # to request the passphrase and fails.
 
-#GPG_AGENT=true
+GPG_AGENT=true
 #SSH_AGENT=true
-#SSH_AGENT=gpg # use gpg-agent for ssh instead of ssh-agent
+SSH_AGENT=gpg # use gpg-agent for ssh instead of ssh-agent
 
 if [ "${GPG_AGENT}" = true ]; then
 	if [ -x /usr/bin/gpgconf ]; then
