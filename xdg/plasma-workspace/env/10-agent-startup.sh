@@ -23,8 +23,8 @@
 # to request the passphrase and fails.
 
 GPG_AGENT=true
-#SSH_AGENT=true
-SSH_AGENT=gpg # use gpg-agent for ssh instead of ssh-agent
+SSH_AGENT=true
+#SSH_AGENT=gpg # use gpg-agent for ssh instead of ssh-agent
 
 if [ "${GPG_AGENT}" = true ]; then
 	if [ -x /usr/bin/gpgconf ]; then
@@ -38,6 +38,8 @@ fi
 if [ "${SSH_AGENT}" = true ]; then
 	if [ -x /usr/bin/ssh-agent ]; then
 		eval "$(/usr/bin/ssh-agent -s)"
+		export SSH_ASKPASS='/usr/bin/ksshaskpass'
+		ssh-add -q < /dev/null
 	fi
 elif [ "${SSH_AGENT}" = gpg ] && [ "${GPG_AGENT}" = true ]; then
 	if [ -e /run/user/$(id -ru)/gnupg/S.gpg-agent.ssh ]; then

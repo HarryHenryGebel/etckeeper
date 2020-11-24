@@ -9,9 +9,9 @@
 #	kill $(echo ${GPG_AGENT_INFO} | cut -d':' -f 2) >/dev/null 2>&1
 #fi
 
-# >=gnupg-2.1.x
-#gpgconf --kill gpg-agent >/dev/null 2>&1
+ >=gnupg-2.1.x
+gpgconf --kill gpg-agent >/dev/null 2>&1
 
-#if [ -n "${SSH_AGENT_PID}" ]; then
-#	eval "$(ssh-agent -s -k)"
-#fi
+if [ -n "${SSH_AGENT_PID}" ]; then
+	eval "$(ssh-agent -s -k)"
+fi
