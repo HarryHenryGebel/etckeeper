@@ -51,6 +51,7 @@ maybe chmod 0600 'NetworkManager/system-connections/.keep_net-misc_networkmanage
 maybe chmod 0755 'OpenCL'
 maybe chmod 0755 'OpenCL/vendors'
 maybe chmod 0644 'OpenCL/vendors/nvidia.icd'
+maybe chmod 0644 'README.md'
 maybe chmod 0755 'UPower'
 maybe chmod 0644 'UPower/UPower.conf'
 maybe chmod 0755 'X11'
