@@ -26,3 +26,4 @@ media-libs/libvpx postproc
 media-video/obs-studio fdk nvenc
 x11-drivers/nvidia-drivers uvm
 app-crypt/gnupg -smartcard
+media-fonts/noto extra
