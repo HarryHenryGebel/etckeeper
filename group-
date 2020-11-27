@@ -42,3 +42,4 @@ sddm:x:998:
 harry:!:1000:
 nullmail:x:88:
 postgres:x:70:
+mysql:x:60:
