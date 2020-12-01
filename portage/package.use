@@ -23,4 +23,3 @@ media-video/obs-studio fdk nvenc
 x11-drivers/nvidia-drivers uvm
 app-crypt/gnupg -smartcard
 sys-libs/timezone-data leaps-timezone
-net-im/zoom -bundled-qt
