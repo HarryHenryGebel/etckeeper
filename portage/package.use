@@ -13,16 +13,14 @@ app-office/libreoffice -bluetooth
 dev-qt/qtsql postgres
 kde-apps/kipi-plugins -remotestorage
 dev-ruby/bundler -doc
-#net-libs/nodejs -npm
 dev-vcs/git curl
 kde-plasma/plasma-meta -networkmanager -plymouth sddm -wallpapers
 x11-libs/libdrm libkms
 kde-apps/libkleo -fancyviewer
-#dev-qt/qtwebengine jumbo-build
-#dev-db/mariadb server
 dev-db/postgresql -server
-#kde-apps/akonadi -tools
 media-libs/libvpx postproc
 media-video/obs-studio fdk nvenc
 x11-drivers/nvidia-drivers uvm
 app-crypt/gnupg -smartcard
+sys-libs/timezone-data leaps-timezone
+net-im/zoom -bundled-qt
