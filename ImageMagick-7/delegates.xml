@@ -89,8 +89,8 @@
   <delegate decode="pcl:cmyk" stealth="True" command="&quot;pcl6&quot; -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=ppmraw&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;%s&quot;"/>
   <delegate decode="pcl:color" stealth="True" command="&quot;pcl6&quot; -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=ppmraw&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;%s&quot;"/>
   <delegate decode="pcl:mono" stealth="True" command="&quot;pcl6&quot; -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=ppmraw&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;%s&quot;"/>
-  <delegate decode="pdf" encode="eps" mode="bi" command="&quot;gs&quot; -sstdout=%%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 -sPDFPassword=&quot;%a&quot; &quot;-sDEVICE=eps2write&quot; &quot;-sOutputFile=%o&quot; &quot;-f%i&quot;"/>
-  <delegate decode="pdf" encode="ps" mode="bi" command="&quot;gs&quot; -sstdout=%%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=ps2write&quot; -sPDFPassword=&quot;%a&quot; &quot;-sOutputFile=%o&quot; &quot;-f%i&quot;"/>
+  <delegate decode="pdf" encode="eps" mode="bi" command="&quot;gs&quot; -sstdout=%%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=eps2write&quot; &quot;-sPDFPassword=%a&quot; &quot;-sOutputFile=%o&quot; &quot;-f%i&quot;"/>
+  <delegate decode="pdf" encode="ps" mode="bi" command="&quot;gs&quot; -sstdout=%%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=ps2write&quot; &quot;-sPDFPassword=%a&quot; &quot;-sOutputFile=%o&quot; &quot;-f%i&quot;"/>
   <delegate decode="pnm" encode="trace" command="&quot;potrace&quot; --svg --output &quot;%o&quot; &quot;%i&quot;"/>
   <delegate decode="png" encode="webp" command="&quot;cwebp&quot; -quiet %Q &quot;%i&quot; -o &quot;%o&quot;"/>
   <delegate decode="pnm" encode="ilbm" mode="encode" command="&quot;ppmtoilbm&quot; -24if &quot;%i&quot; &gt; &quot;%o&quot;"/>
@@ -111,6 +111,7 @@
   <delegate decode="svg" command="&quot;rsvg-convert&quot; -o &quot;%o&quot; &quot;%i&quot;"/>
   <!-- Change export-filename to export-png for inkscape < 1.0 -->
   <delegate decode="svg:decode" stealth="True" command="&quot;inkscape&quot; &quot;%s&quot; --export-filename=&quot;%s&quot; --export-dpi=&quot;%s&quot; --export-background=&quot;%s&quot; --export-background-opacity=&quot;%s&quot; &gt; &quot;%s&quot; 2&gt;&amp;1"/>
+  <delegate decode="tiff" encode="text" command="&quot;tesseract&quot; &quot;%i&quot; &quot;%u&quot;; /bin/mv &quot;%u.txt&quot; &quot;%o&quot;"/>
   <delegate decode="tiff" encode="launch" mode="encode" command="&quot;gimp&quot; &quot;%i&quot;"/>
   <delegate decode="wdp" command="/bin/mv &quot;%i&quot; &quot;%i.jxr&quot;; &quot;JxrDecApp&quot; -i &quot;%i.jxr&quot; -o &quot;%o.bmp&quot;; /bin/mv &quot;%i.jxr&quot; &quot;%i&quot;; /bin/mv &quot;%o.bmp&quot; &quot;%o&quot;"/>
   <delegate decode="webp" command="&quot;dwebp&quot; -pam &quot;%i&quot; -o &quot;%o&quot;"/>
