@@ -8,3 +8,6 @@ media-video/peek ~amd64
 media-video/obs-studio ~amd64
 media-video/nvidia-video-codec ~amd64
 dev-util/nvidia-cuda-toolkit ~amd64
+dev-lisp/sbcl ~amd64
+dev-lisp/asdf ~amd64
+dev-lisp/uiop ~amd64
