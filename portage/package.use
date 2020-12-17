@@ -19,7 +19,7 @@ x11-libs/libdrm libkms
 kde-apps/libkleo -fancyviewer
 dev-db/postgresql -server
 media-libs/libvpx postproc
-media-video/obs-studio fdk nvenc
+media-video/obs-studio fdk nvenc python_single_target_python3_7
 x11-drivers/nvidia-drivers uvm
 app-crypt/gnupg -smartcard
 sys-libs/timezone-data leaps-timezone
