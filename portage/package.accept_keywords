@@ -13,3 +13,4 @@ dev-lisp/asdf ~amd64
 dev-lisp/uiop ~amd64
 x11-drivers/nvidia-drivers ~amd64
 dev-vcs/git ~amd64
+net-vpn/nordvpn ~amd64
