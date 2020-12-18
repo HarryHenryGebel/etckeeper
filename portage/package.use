@@ -23,5 +23,5 @@ media-video/obs-studio fdk nvenc python_single_target_python3_7
 x11-drivers/nvidia-drivers uvm
 app-crypt/gnupg -smartcard
 sys-libs/timezone-data leaps-timezone
-#sys-kernel/gentoo-kernel savedconfig
+sys-kernel/gentoo-kernel savedconfig
 kde-plasma/kde-cli-tools kdesu
