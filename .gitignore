@@ -3,6 +3,8 @@ gshadow*
 ssh/ssh_host_*
 ssl/private/*
 
+wireguard/*
+
 # begin section managed by etckeeper (do not edit this section by hand)
 
 # new and old versions of conffiles, stored by emerge
