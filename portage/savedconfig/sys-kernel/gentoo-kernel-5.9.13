@@ -1202,6 +1202,7 @@ CONFIG_IP_NF_IPTABLES=y
 # CONFIG_IP_NF_ARPTABLES is not set
 CONFIG_IP_NF_FILTER=y
 CONFIG_IP_NF_RAW=y
+CONFIG_IP_NF_MANGLE=y
 # end of IP: Netfilter Configuration
 
 #
