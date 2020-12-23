@@ -25,3 +25,4 @@ app-crypt/gnupg -smartcard
 sys-libs/timezone-data leaps-timezone
 sys-kernel/gentoo-kernel savedconfig
 kde-plasma/kde-cli-tools kdesu
+kde-apps/ark zip
