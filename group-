@@ -28,7 +28,7 @@ nogroup::65533:
 nobody::65534:
 man:x:15:
 sshd:x:22:
-kvm:x:78:
+kvm:x:78:harry
 render:x:28:
 cron:x:16:harry
 mail:x:12:
