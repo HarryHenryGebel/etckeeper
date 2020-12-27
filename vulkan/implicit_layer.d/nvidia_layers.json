@@ -4,7 +4,7 @@
         "name": "VK_LAYER_NV_optimus",
         "type": "INSTANCE",
         "library_path": "libGLX_nvidia.so.0",
-        "api_version" : "1.2.142",
+        "api_version" : "1.2.155",
         "implementation_version" : "1",
         "description" : "NVIDIA Optimus layer",
         "functions": {
