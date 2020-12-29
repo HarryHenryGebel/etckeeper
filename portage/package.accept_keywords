@@ -15,4 +15,3 @@ x11-drivers/nvidia-drivers ~amd64
 dev-vcs/git ~amd64
 <sys-kernel/gentoo-kernel-5.10.1 ~amd64
 <sys-kernel/gentoo-kernel-bin-5.10.1 ~amd64
-dev-java/openjdk-bin ~amd64
