@@ -44,3 +44,4 @@ nullmail:x:88:
 postgres:x:70:
 mysql:x:60:
 docker:x:48:harry
+geoclue:x:997:
