@@ -46,3 +46,4 @@ mysql:x:60:
 docker:x:48:harry
 geoclue:x:997:
 avahi:x:61:
+netdev:x:64:
