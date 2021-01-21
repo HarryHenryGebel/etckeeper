@@ -45,3 +45,4 @@ postgres:x:70:
 mysql:x:60:
 docker:x:48:harry
 geoclue:x:997:
+avahi:x:61:
