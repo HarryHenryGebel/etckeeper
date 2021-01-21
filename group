@@ -5,7 +5,7 @@ sys::3:root,bin,adm
 adm::4:root,adm,daemon
 tty::5:
 disk::6:root,adm
-lp::7:lp
+lp::7:lp,harry
 mem::8:
 kmem::9:
 wheel::10:root,harry
@@ -35,7 +35,7 @@ mail:x:12:
 crontab:x:249:
 messagebus:x:101:
 polkitd:x:102:
-lpadmin:x:106:
+lpadmin:x:106:harry
 plugdev:x:272:
 locate:x:999:
 sddm:x:998:

@@ -5,7 +5,7 @@ sys::3:root,bin,adm
 adm::4:root,adm,daemon
 tty::5:
 disk::6:root,adm
-lp::7:lp
+lp::7:lp,harry
 mem::8:
 kmem::9:
 wheel::10:root,harry
@@ -44,3 +44,4 @@ nullmail:x:88:
 postgres:x:70:
 mysql:x:60:
 docker:x:48:harry
+geoclue:x:997:
