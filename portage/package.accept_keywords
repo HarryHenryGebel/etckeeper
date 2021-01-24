@@ -16,3 +16,4 @@ dev-vcs/git ~amd64
 <=sys-kernel/gentoo-kernel-5.11.1 ~amd64
 <=sys-kernel/gentoo-kernel-bin-5.11.1 ~amd64
 <=virtual/dist-kernel-5.11.1 ~amd64
+games-roguelike/dwarf-fortress ~amd64
