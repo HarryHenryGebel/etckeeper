@@ -17,3 +17,6 @@ dev-vcs/git ~amd64
 <=sys-kernel/gentoo-kernel-bin-5.11.1 ~amd64
 <=virtual/dist-kernel-5.11.1 ~amd64
 games-roguelike/dwarf-fortress ~amd64
+media-video/avidemux ~amd64
+media-libs/avidemux-core ~amd64
+media-libs/avidemux-plugins ~amd64

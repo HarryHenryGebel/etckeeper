@@ -28,3 +28,6 @@ kde-plasma/kde-cli-tools kdesu
 kde-apps/ark zip
 dev-vcs/git tk
 net-fs/samba -cups -gpg
+media-libs/avidemux-core nvenc
+media-video/avidemux nvenc
+media-libs/avidemux-plugins nvenc
