@@ -8,3 +8,5 @@ dev-util/nvidia-cuda-toolkit NVIDIA-CUDA
 net-print/brother-hl3140cw-bin brother-eula
 games-roguelike/dwarf-fortress free-noncomm
 media-libs/faac MPEG-4
+games-util/steam-launcher ValveSteamLicense
+

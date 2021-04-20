@@ -20,3 +20,5 @@ games-roguelike/dwarf-fortress ~amd64
 media-video/avidemux ~amd64
 media-libs/avidemux-core ~amd64
 media-libs/avidemux-plugins ~amd64
+games-util/steam-launcher ~amd64
+games-util/game-device-udev-rules ~amd64
